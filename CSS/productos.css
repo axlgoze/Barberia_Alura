@@ -48,3 +48,12 @@ nav a{
     font-weight: bold;
 }
 
+.producto-description{
+    font-size: 18px;
+}
+
+.producto-precio{
+    font-size: 30px;
+    font-weight: bold;
+}
+
