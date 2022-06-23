@@ -30,6 +30,11 @@ nav a{
     margin: 0 auto;
 }
 
+.productos{
+    width: 940px;
+    margin: 0 auto;
+}
+
 .productos li{
     display: inline-block;
 }
