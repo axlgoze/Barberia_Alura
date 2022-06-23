@@ -29,3 +29,7 @@ nav a{
     /* border: saddlebrown solid; */
     margin: 0 auto;
 }
+
+.productos li{
+    display: inline-block;
+}
