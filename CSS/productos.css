@@ -19,5 +19,12 @@ nav a{
     position: absolute;
     top: 110px;
     right: 0;
-    
+}
+
+.caja{
+    /* medida comun 1280 */
+    width: 940px; /* 70% aproz de 1280 */
+    position: relative;
+    /* border: saddlebrown solid; */
+    margin: 0 auto;
 }
