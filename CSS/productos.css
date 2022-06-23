@@ -48,7 +48,9 @@ nav a{
     border: solid black 2px;
     border-top-width: 30px;
     border-top-style: groove;
+    border-radius: 9px;
 }
+
 
 .productos h2{
     font-size: 30px;
