@@ -47,6 +47,7 @@ nav a{
     box-sizing: border-box;
     border: solid black 2px;
     border-top-width: 30px;
+    border-top-style: groove;
 }
 
 .productos h2{
