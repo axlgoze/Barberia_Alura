@@ -43,6 +43,8 @@ nav a{
     vertical-align: top;
     background-color: antiquewhite;
     margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
 }
 
 .productos h2{
