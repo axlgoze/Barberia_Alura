@@ -16,6 +16,11 @@ nav a{
     font-size: 22px;
 }
 
+nav a:hover{
+    color: rgb(18, 125, 91);
+    text-decoration: underline;
+}
+
 .main-nav{
     position: absolute;
     top: 110px;
