@@ -86,3 +86,14 @@ nav a:hover{
     margin-top: 10px;
 }
 
+footer{
+    text-align: center;
+    background-image: url(./../imagenes2/bg.jpg);
+    padding: 40px;
+}
+
+footer p{
+    font-size: 13px;
+    color: white;
+    margin: 20px;
+}
