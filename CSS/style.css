@@ -1,5 +1,6 @@
 .main-title{
     padding-left: 30px;
+    font-size: 73px;
 }
 
 #banner{
@@ -44,6 +45,11 @@ ul{
 .diferenciales{
     background-color: #FF9F29;
     padding: 30px;
+}
+
+.items{
+    text-decoration: none;
+    list-style: none;
 }
 
 .imgdif{
