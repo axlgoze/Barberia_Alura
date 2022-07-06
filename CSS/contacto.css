@@ -58,7 +58,6 @@ form label, form p{
     width: 50%;
 }
 
-
 footer{
     text-align: center;
     background-image: url(./../imagenes2/bg.jpg);
@@ -71,3 +70,6 @@ footer p{
     margin: 20px;
 }
 
+.checkbox_label{
+    margin: 20px 0;
+}
