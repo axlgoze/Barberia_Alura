@@ -73,3 +73,22 @@ footer p{
 .checkbox_label{
     margin: 20px 0;
 }
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: gold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .7s;
+}
+
+.enviar:hover{
+    color: gold;
+    background-color: white;
+    border: solid 1px gold;
+}
