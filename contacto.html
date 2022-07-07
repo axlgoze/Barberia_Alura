@@ -24,13 +24,13 @@
     <main>
         <form action="">
             <label for="nombreapellido">Nombre y Apellido:</label>
-            <input type="text" id="nombreapellido" class="input-padron">
+            <input type="text" id="nombreapellido" class="input-padron" required>
             <label for="correo">Correo Electrónico:</label>
-            <input type="email" id="correo" class="input-padron">
+            <input type="email" id="correo" class="input-padron" required placeholder="email@dominio.com">
             <label for="telefono">Telefono:</label>
-            <input type="tel" id="telefono" class="input-padron">
+            <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXXXXXX">
             <label for="mensaje">mensaje</label>
-            <textarea name="" id="mensaje" cols="70" rows="10" class="input-padron"></textarea>
+            <textarea name="" id="mensaje" cols="70" rows="10" class="input-padron" required></textarea>
             <p>¿Como le gustaria que lo contactemos</p>
             <label for="radio-email">
                 <input type="radio" name="radio" id="radio-email" value="email">
@@ -39,7 +39,7 @@
                 <input type="radio" name="radio" id="radio-telefono" value="telefono">
             telefono</label>
             <label for="radio-whatsapp">
-                <input type="radio" name="radio" id="radio-whatsapp" value="whatsapp">
+                <input type="radio" name="radio" id="radio-whatsapp" value="whatsapp" checked>
             whatsapp</label>
             <div>
                 <p>¿En que horario quieres ser contactado?</p>
@@ -51,7 +51,7 @@
             </div>
 
             <label for="" class="checkbox_label">
-                <input type="checkbox" name="" id="">
+                <input type="checkbox" name="" id="" checked>
                 ¿Le gustaria recibir novedades de la bareria Alura?
             </label>
 
