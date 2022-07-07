@@ -31,24 +31,28 @@
             <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXXXXXX">
             <label for="mensaje">mensaje</label>
             <textarea name="" id="mensaje" cols="70" rows="10" class="input-padron" required></textarea>
-            <p>¿Como le gustaria que lo contactemos</p>
-            <label for="radio-email">
-                <input type="radio" name="radio" id="radio-email" value="email">
-            Email</label>
-            <label for="radio-telefono">
-                <input type="radio" name="radio" id="radio-telefono" value="telefono">
-            telefono</label>
-            <label for="radio-whatsapp">
-                <input type="radio" name="radio" id="radio-whatsapp" value="whatsapp" checked>
-            whatsapp</label>
-            <div>
-                <p>¿En que horario quieres ser contactado?</p>
+            
+            <fieldset>
+                <legend>¿Como le gustaria que lo contactemos</legend>
+                <label for="radio-email">
+                    <input type="radio" name="radio" id="radio-email" value="email">
+                Email</label>
+                <label for="radio-telefono">
+                    <input type="radio" name="radio" id="radio-telefono" value="telefono">
+                telefono</label>
+                <label for="radio-whatsapp">
+                    <input type="radio" name="radio" id="radio-whatsapp" value="whatsapp" checked>
+                whatsapp</label>
+            </fieldset>
+            
+            <fieldset id="field">
+                <legend>¿En que horario quieres ser contactado?</legend>
                 <select name="" id="">
                     <option value="">mañana</option>
                     <option value="">tarde</option>
                     <option value="">noche</option>
                 </select>
-            </div>
+            </fieldset>
 
             <label for="" class="checkbox_label">
                 <input type="checkbox" name="" id="" checked>
