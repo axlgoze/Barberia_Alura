@@ -93,3 +93,19 @@ footer p{
     border: solid 1px gold;
     transform: scale(1.20) rotate(3deg);
 }
+
+table{
+    margin: 40px 40px;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: rebeccapurple;
+    color: white;
+}
+
+td, th{
+    border: 1px solid green;
+    padding: 8px 15px;
+    
+}
