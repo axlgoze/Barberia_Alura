@@ -1,57 +1,50 @@
-.main-title{
-    padding-left: 30px;
-    font-size: 73px;
+
+header{
+    background-color: #bbbbbb;
+    padding: 20px 0;
 }
 
-#banner{
-    width: 100%;
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
 }
 
-.principal{
-    padding: 20px;
-    background-color: #1A4D2E;
-}
-
-.principal h2 ,p{
-    color: #FAF3E3;
-}
-
-p{
-    text-align: center;
-}
-em strong{
-    color: red;
-}
-
-#mision{
-    font-size: 20px;
-}
-
-.center-title{
-    text-align: center;
-}
-
-.items{
-    font-style: italic;
-}
-
-ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
-
-.diferenciales{
-    background-color: #FF9F29;
-    padding: 30px;
-}
-
-.items{
+nav a{
+    text-transform: uppercase;
     text-decoration: none;
-    list-style: none;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
 }
 
-.imgdif{
-    width: 50%;
+nav a:hover{
+    color: rgb(0, 255, 213);
+    text-decoration: underline;
+}
+
+.main-nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+.caja{
+    /* medida comun 1280 */
+    width: 940px; /* 70% aproz de 1280 */
+    position: relative;
+    /* border: saddlebrown solid; */
+    margin: 0 auto;
+}
+
+
+footer{
+    text-align: center;
+    background-image: url(./../imagenes2/bg.jpg);
+    padding: 40px;
+}
+
+footer p{
+    font-size: 13px;
+    color: white;
+    margin: 20px;
 }
