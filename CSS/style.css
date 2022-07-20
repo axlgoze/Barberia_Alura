@@ -64,6 +64,11 @@ footer p{
     clear: left;
 }
 
+.main-title::first-letter{
+    font-weight: bold;
+
+}
+
 .principal p{
     margin: 0 0 1em;
 }
@@ -122,6 +127,10 @@ footer p{
     line-height: 1.7;
 }
 
+.items::before{
+    content: "💎";
+}
+
 .items:first-child{
     font-weight: bold;
 }
@@ -145,3 +154,17 @@ footer p{
     /* height: auto; */
     text-align: center;    
 }
+
+p:first-line{
+    font-style: italic;
+}
+
+
+.main-title::before{
+    content: "[";
+}
+.main-title::after{
+    content: "]";
+}
+
+
