@@ -117,3 +117,7 @@ footer p{
 .items{
     line-height: 1.7;
 }
+
+.items:first-child{
+    font-weight: bold;
+}
