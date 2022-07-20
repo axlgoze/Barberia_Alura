@@ -182,3 +182,10 @@ p:first-line{
 } */
 
 
+/* breakpoint - mediaQuery*/
+@media screen and (min-width: 320px) and (max-width: 480px){
+    body{
+        min-width: 320px;
+        background-color: aqua;
+    }
+}
