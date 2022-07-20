@@ -110,6 +110,11 @@ footer p{
 
 .imagen-diferenciales{
     width: 60%;
+    box-shadow: 10px 10px 50px #000000;
+}
+.imagen-diferenciales:hover{
+    opacity: 0.7;
+    transition: 400ms;
 }
 
 
@@ -126,6 +131,10 @@ footer p{
 
 .items{
     line-height: 1.7;
+}
+
+.items:hover{
+    color: rgb(38, 53, 163);
 }
 
 .items::before{
