@@ -82,7 +82,8 @@ footer p{
 }
 
 .utencilios{
-    width: 120px;
+    /* width: 120px; */
+    width: calc(40% - (26px));
     float: left;
     margin: 0 20px 20px 0;
 }
@@ -166,5 +167,9 @@ p:first-line{
 .main-title::after{
     content: "]";
 }
+
+/* .principal p:not(#mision) {
+    background-color: rgb(0, 191, 255);
+} */
 
 
