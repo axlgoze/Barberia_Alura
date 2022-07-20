@@ -33,7 +33,7 @@ nav a:hover{
 
 .caja{
     /* medida comun 1280 */
-    width: 940px; /* 70% aproz de 1280 */
+    width: 940px; /* 70% aprox de 1280 */
     position: relative;
     /* border: saddlebrown solid; */
     margin: 0 auto;
@@ -186,6 +186,17 @@ p:first-line{
 @media screen and (min-width: 320px) and (max-width: 480px){
     body{
         min-width: 320px;
+        max-width: 480px
         background-color: aqua;
     }
+
+    .caja, .principal, .mapa, .contenido-diferenciales, .video-section{
+        width: auto;
+    }
+
+    .imagen-diferenciales{
+        vertical-align: middle;
+    }
+
+
 }
