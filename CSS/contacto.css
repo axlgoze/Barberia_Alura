@@ -162,7 +162,7 @@ td, th{
     .formulario-campo{
         margin-top: 30px;
     }
-
+        
     .formulario-campo legend{
         margin-bottom: 20px;
     }
@@ -170,5 +170,18 @@ td, th{
     .enviar{
         width: 100%;
         margin-top: 20px;
+    }
+
+    .select{
+        width: 120px;
+        height: 45px;
+        padding: 5px;
+        border:  solid yellow;
+        background-color: #293462;
+        color: #FEB139;
+    }
+
+    .select:hover{
+        border: none;
     }
 }
