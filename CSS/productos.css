@@ -97,3 +97,39 @@ footer p{
     color: white;
     margin: 20px;
 }
+
+/* brekapoint para mobile */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    body{
+        min-width: 320px;
+        max-width: 480px
+    }
+
+    
+    .caja, .principal, .mapa, .contenido-diferenciales, .video-section{
+        width: auto;
+    }
+
+    
+    h1{
+        text-align: center;
+    }
+
+    .main-nav{
+        position: static;
+    }
+
+    nav a{
+        text-transform: uppercase;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .navegacion{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
