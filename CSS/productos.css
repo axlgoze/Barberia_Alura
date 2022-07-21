@@ -132,4 +132,44 @@ footer p{
         display: flex;
         justify-content: space-evenly;
     }
+
+    main{
+        width: 100%;
+        min-width: 320px;
+    }
+
+    .productos{
+        display: flex;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x proximity;
+        max-width: 320px;
+        padding: 20px;
+    }
+
+    .prodcutos-container--card{
+        scroll-snap-align: center;
+        margin-left: 8px;
+        margin-right: 8px;
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .productos li{
+        /* text-align: center; */
+        width: 300px;
+        margin: 0 auto;
+        /* padding: 30px 2px; */
+        box-sizing: border-box;
+        border: solid black 2px;
+        border-top-width: 30px;
+        border-top-style: groove;
+        border-radius: 9px;
+    }
+
+    .productos--img{
+        width: calc(90% - (26px));
+    }
 }
