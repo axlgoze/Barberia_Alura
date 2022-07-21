@@ -109,3 +109,66 @@ td, th{
     padding: 8px 15px;
     
 }
+/* breakpoint para mobile */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    body{
+        min-width: 320px;
+        max-width: 480px
+    }
+
+    
+    .caja, .principal, .formulario, .formulario-campo, .tabla{
+        width: auto;
+    }
+
+    
+    h1{
+        text-align: center;
+    }
+
+    .main-nav{
+        position: static;
+    }
+
+    nav a{
+        text-transform: uppercase;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .navegacion{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .input-padron{
+        width: auto;
+    }
+
+    main{
+        max-width: 320px;
+        min-width: 320px;
+    }
+
+    .textarea{
+        margin: 0 auto;
+        width: 280px;
+        height: 100px;
+    }
+
+    .formulario-campo{
+        margin-top: 30px;
+    }
+
+    .formulario-campo legend{
+        margin-bottom: 20px;
+    }
+
+    .enviar{
+        width: 100%;
+        margin-top: 20px;
+    }
+}

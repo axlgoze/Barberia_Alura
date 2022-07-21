@@ -23,7 +23,7 @@
         </div>
     </header>
     <main>
-        <form action="">
+        <form action="" class="formulario">
             <label for="nombreapellido">Nombre y Apellido:</label>
             <input type="text" id="nombreapellido" class="input-padron" required>
             <label for="correo">Correo Electrónico:</label>
@@ -31,9 +31,9 @@
             <label for="telefono">Telefono:</label>
             <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXXXXXX">
             <label for="mensaje">mensaje</label>
-            <textarea name="" id="mensaje" cols="70" rows="10" class="input-padron" required></textarea>
+            <textarea name="" id="mensaje" cols="70" rows="10" class="input-padron textarea" required></textarea>
             
-            <fieldset>
+            <fieldset class="formulario-campo">
                 <legend>¿Como le gustaria que lo contactemos</legend>
                 <label for="radio-email">
                     <input type="radio" name="radio" id="radio-email" value="email">
@@ -46,7 +46,7 @@
                 whatsapp</label>
             </fieldset>
 
-            <fieldset id="field">
+            <fieldset id="field" class="formulario-campo">
                 <legend>¿En que horario quieres ser contactado?</legend>
                 <select name="" id="">
                     <option value="">mañana</option>
@@ -64,7 +64,7 @@
             <input type="submit" value="Enviar formulario" class="enviar">
         </form>
 
-        <table>
+        <table class="tabla">
             <thead>
                 <tr>
                     <th>día</th>
