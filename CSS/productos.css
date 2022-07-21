@@ -39,12 +39,17 @@ nav a:hover{
     width: 940px;
     margin: 0 auto;
     padding: 50px;
+    display: flex;
+}
+
+.productos--img{
+    width: calc(90% - (26px));
 }
 
 .productos li{
     display: inline-block;
     text-align: center;
-    width: 30%; /* ocupa 1/3 del espacio */
+    width: 90%; /* ocupa 1/3 del espacio */
     vertical-align: top;
     /* background-color: antiquewhite; */
     margin: 0 1.5%;
