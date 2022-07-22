@@ -80,8 +80,8 @@ footer p{
 }
 
 .utencilios{
-    /* width: 120px; */
-    width: calc(40% - (26px));
+    /* width: 120px;40*/
+    width: calc(20% - (26px));
     float: left;
     margin: 0 20px 20px 0;
 }
